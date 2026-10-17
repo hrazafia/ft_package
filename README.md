@@ -1,9 +1,10 @@
+
+
 *This project has been created as part of the 42 curriculum by hrazafia*
 
 ## Description
 
-`ft_package` is simple Python package that provides utility functions for working with lists. ft_package provides the `count_in_list()` function, which counts the number of occurrences of an item in a list.
-
+`ft_package` is a simple Python package that provides utility functions for working with lists. It provides the `count_in_list()` function, which counts the number of occurrences of an item in a list.
 
 ## Instructions
 
@@ -12,9 +13,10 @@
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://
+git clone git@github.com:hrazafia/ft_package.git ft_package
 cd ft_package
 ```
+
 Build the package:
 
 ```bash
@@ -40,6 +42,16 @@ Alternatively, install the source distribution:
 python -m pip install ./dist/ft_package-0.0.1.tar.gz
 ```
 
+#### Uninstallation
+
+To uninstall `ft_package`, run:
+
+```bash
+python -m pip uninstall ft_package
+```
+
+Confirm the uninstallation when prompted.
+
 
 ## Usage
 
@@ -61,7 +73,6 @@ Output:
 
 The function returns the number of occurrences of the specified item in the list.
 
-
 ## Function
 
 ### `count_in_list(lst, item)`
@@ -81,7 +92,6 @@ The function returns the number of occurrences of the specified item in the list
 count_in_list(["a", "b", "a", "c", "a"], "a")
 # Returns 3
 ```
-
 
 ## Resources
 
