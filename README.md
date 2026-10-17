@@ -75,7 +75,7 @@ The function returns the number of occurrences of the specified item in the list
 
 ## Function
 
-***`count_in_list(lst, item)`***
+**`count_in_list(lst, item)`**
 
 Parameters:
 
