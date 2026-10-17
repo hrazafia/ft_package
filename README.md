@@ -75,18 +75,18 @@ The function returns the number of occurrences of the specified item in the list
 
 ## Function
 
-### `count_in_list(lst, item)`
+***`count_in_list(lst, item)`***
 
-**Parameters:**
+Parameters:
 
 - `lst`: The list to search.
 - `item`: The item whose occurrences are counted.
 
-**Returns:**
+Returns:
 
 - `int`: The number of occurrences of `item` in `lst`.
 
-**Example:**
+Example:
 
 ```python
 count_in_list(["a", "b", "a", "c", "a"], "a")
